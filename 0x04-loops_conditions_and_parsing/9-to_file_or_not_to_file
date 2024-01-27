@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Gives information about the bestschool file.
-file=bestschool
+# Gives information about the school file.
+file=school
 if test -e "$file"; then
 	echo "$file file exists"
 	if [ -s "$file" ]; then
