@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+ssh ubuntu@34.139.123.27
+mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
+chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+echo ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPELSC+PXsuMpq45/AeFzXKafbwKNbLFGfat/m5g3TWgn0bdSytowq+nZZ25zZl0CJBqCZSnbNduxgLOSc2BYjqP0n9JxvZXA20iMy1RjawBvvtnv1EXLoJgRnup7+aLmv+0F0PuE6TS2gLbmfbMuxUlYCVR+Pid0dFB6KkZ8M4SQwJCkOB41k15ewkhj9d1Hy73d2dBWvvBPhynEolrQ6OLiyIAhC2iuk8KQs9bS/vrSnMmLqM/DatMfWyuc4MwRxZyPc1KA9/zWWg0gg/zIy+/ZrCgAFbJ76iIQkFfNXqmgRVlAaqI+p7NqVJlzPlNLswSa08O12JThfPp/ue5JZSan33V0FLrMA3y5vGktLasEVdUB3EEwLJB08JzoZYPQnf5AoLVQAjCuS7FnQrnP1n23twKIEzz9SVIIsKd6MMI5ebINwzRN4zraKDEujxnhE2kbdfcW72psm8GcEvN277Klxj+H9XuSnf+Grcpvvs1ZBThsO/mb/1yq3xCKSQEk= sohib@192.168.1.6 >> ~/.ssh/authorized_keys

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# uses ssh to connect to server using private key ~/.ssh/sohib with user ubuntu
+
+ssh ubuntu@35.174.213.142 -i ~/.ssh/sohib
